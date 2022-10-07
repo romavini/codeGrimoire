@@ -6,7 +6,7 @@ function conversaoCparaF(C) {
   return 1.8 * C + 32;
 };
 
-function conversaoFparC(F) {
+function conversaoFparaC(F) {
   return (F - 32) / 1.8;
 };
 
@@ -19,5 +19,5 @@ if (conversao === 1) {
   console.log(conversaoCparaF(C), "graus Fahrenheit");
 } else if (conversao === 2) {
   let F = parseFloat(prompt("Digite a temperatura em Fahrenheit"));
-  console.log(conversaoFparC(F), "graus Celsius");
+  console.log(conversaoFparaC(F), "graus Celsius");
 };
