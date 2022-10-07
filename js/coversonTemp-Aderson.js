@@ -22,6 +22,7 @@ function conversaoFahrenheit(celsius) {
     opcao = parseInt(prompt("Escolha uma opção"))
   }
   
+  
   if (opcao == 1) {
     //°Fahrenheit
     let celFah = conversaoFahrenheit(temp);
